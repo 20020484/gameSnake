@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1620530275 source:d:\gamesnake\gamesnake\sdl_setup.cpp
+	"SDL_setup.h"
+
+1620532414 d:\gamesnake\gamesnake\sdl_setup.h
+	<iostream>
+	<stdio.h>
+	<cstdlib>
+	<SDL.h>
+	<time.h>
+	<SDL_image.h>
+	<string>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<sstream>
+
+1620489687 source:d:\gamesnake\gamesnake\commonfunction.cpp
+	"CommonFunction.h"
+
+1620150389 d:\gamesnake\gamesnake\commonfunction.h
+	"SDL_setup.h"
+
+1620096246 source:d:\gamesnake\gamesnake\gamemap.cpp
+	"gameMap.h"
+
+1620096246 d:\gamesnake\gamesnake\gamemap.h
+	<SDL.h>
+	<iostream>
+	"SDL_setup.h"
+	"CommonFunction.h"
+
+1620724791 source:d:\gamesnake\gamesnake\main.cpp
+	"SDL_setup.h"
+	"CommonFunction.h"
+	"StartGame.h"
+	"Game.h"
+
+1620728560 source:d:\gamesnake\gamesnake\game.cpp
+	"Game.h"
+
+1620148766 d:\gamesnake\gamesnake\game.h
+	"CommonFunction.h"
+	"SDL_setup.h"
+	"StartGame.h"
+
+1620148578 d:\gamesnake\gamesnake\startgame.h
+	"CommonFunction.h"
+	"SDL_setup.h"
+
+1620742185 source:d:\gamesnake\gamesnake\startgame.cpp
+	"StartGame.h"
+
